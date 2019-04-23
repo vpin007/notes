@@ -5,7 +5,7 @@ Exceptions. *********************************************
 Do not install mingw-w64-x86_64-boost, it will install Boost 1.70.0 and it will not compile.
 Instead pull older version from msys2 archive then manually install.
 
-wget wget http://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-boost-1.69.0-2-any.pkg.tar.xz
+wget http://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-boost-1.69.0-2-any.pkg.tar.xz
 pacman -U mingw-w64-x86_64-boost-1.69.0-2-any.pkg.tar.xz
 
 If you already installed newer boost you will have to remove it first.
