@@ -124,7 +124,7 @@ On sn1 I'll change http-address port to 18690 then increment this number for eac
 Actually you can put this to whatever number as long as it's not an already used port.
 Mainly used for checking status at this point, but in the future it may need to be standard.
 Change data-dir to point to each supernode directory, don't forget the trailing slash /.
-wallet-public-address=Paste in your wallet address you plan on using for this supernode. Make sure there are no spaces or line continuations. Do not use these addresses they are just for example, use your own wallet addresses. 
+wallet-public-address=Paste in your wallet address you plan on using for this supernode. Make sure there are no spaces or line continuations. Do not use these wallet addresses they are just for example, use your own wallet addresses. 
 
 * Changes for sn1
 
