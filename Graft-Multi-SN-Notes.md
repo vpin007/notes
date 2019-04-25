@@ -1,3 +1,13 @@
+Based off of the following guides.
+
+https://github.com/graft-community/docs/blob/master/Graft_Supernode_Testnet_Simple-step-by-step-setup-instructions-for-non-Linux-users_v1.7-MULTI-SN-EDITION.md
+
+https://github.com/graft-community/docs/blob/master/MaintenanceandServerHardeningguideforGraftSupernode_MultiSN_CommunityDebpackages.md
+
+https://deb.graft.community/
+
+
+
 We created our VM and supplied our ssh public key.
 We don't want our services running as root so we will create a non root user and add that user to the Sudo group.
 
