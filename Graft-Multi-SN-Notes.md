@@ -73,6 +73,12 @@ I'll be running 2 on this server so I'll create 2 directories.
     mkdir -p ~/sn2/logs
 ````
 
+
+Copy config.ini into each SN directory.
+````bash
+cp /usr/share/doc/graft-supernode/config.ini ~/sn1/config.ini
+cp /usr/share/doc/graft-supernode/config.ini ~/sn2/config.ini
+````
 Run graftnoded and let it run for a few seconds to create directories.
 type exit to stop. Then Change to the .graft/lmdb/ directory.
 
